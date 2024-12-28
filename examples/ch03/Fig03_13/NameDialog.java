@@ -7,11 +7,11 @@ public class NameDialog
    public static void main(String[] args)
    {
       // prompt user to enter name
-      String name = JOptionPane.showInputDialog("What is your name?");
+      String name = JOptionPane.showInputDialog("What is your age?");
       
       // create the message
       String message =                                              
-         String.format("Welcome, %s, to Java Programming!", name);
+         String.format("Welcome, %s years old, to Java Programming!", name);
 
       // display the message to welcome the user by name 
       JOptionPane.showMessageDialog(null, message);
